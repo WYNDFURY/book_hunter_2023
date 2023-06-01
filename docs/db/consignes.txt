@@ -1,0 +1,43 @@
+BOOK HUNTER
+
+---------------------------------------------------------
+I. LA DATABASE > Commit: Création et hydratation de la DB
+---------------------------------------------------------
+	1. Créer la structure de la DB 
+		> png + mwb + sql
+		> dans documents/db
+	2. Intégrer la structure sur MySQL
+	3. Intégrer des data avec ChatGPT
+	4. Sauvegarde la DB et son contenu dans documents/db
+
+----------------------------------------------------
+II. LA STRUCTURE MCV > Commit: Structure MVC de base
+----------------------------------------------------
+	Création de la structure complète de l'app MVC
+	app, core, public, ...
+	Copier/coller OK pour la connexion
+		- app
+			- config
+				- params.php
+			- controllers
+			- models
+			- routers
+				- index.php
+			- views
+				- templates
+					- index.php
+		- core 
+			- init.php
+			- connexion.php
+
+		- public
+			- index.php
+			- css
+			- js
+
+-------------------------------------------------------------------------------
+III. LE TEMPLATE > Commit: Intégration et décomposition du template en partials
+-------------------------------------------------------------------------------
+	1. Intégrer le template
+	2. Placer les zones dynamiques (title et content)
+	3. Décomposer en partials
