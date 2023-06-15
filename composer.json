@@ -1,0 +1,10 @@
+{
+    "name": "lecoc/book_hunter_2023",
+    "authors": [
+        {
+            "name": "Florent Lecocq",
+            "email": "lecocqflorent@outlook.fr"
+        }
+    ],
+    "require": {}
+}
